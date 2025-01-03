@@ -3,8 +3,8 @@
 @section('content')
 <style>
     :root {
-    --primary-color: {{ $settings['theme_primary_color'] ?? '#56cc99' }};
-    --secondary-color: {{ $settings['theme_secondary_color'] ?? '#215679' }};
+    --primary-color: {{  '#F8A800' }};
+    --secondary-color: {{'#F8A800' }};
     --secondary-color1: {{ $settings['theme_secondary_color_1'] ?? '#38a3a5' }};
     --primary-background-color: {{ $settings['theme_primary_background_color'] ?? '#f2f5f7' }};
     --text--secondary-color: {{ $settings['theme_text_secondary_color'] ?? '#5c788c' }};
@@ -19,7 +19,7 @@
             <div class="navLogoWrapper">
                 <div class="navLogo">
                     <a href="{{ url('/') }}">
-                        <img src="{{ $settings['horizontal_logo'] ?? asset('assets/landing_page_images/Logo1.svg') }}" class="logo" alt="">
+                        <img src="{{ $settings['horizontal_logo'] ?? asset('assets/landing_page_images/horizontal-logo2.png') }}" class="logo" alt="">
                     </a>
 
                 </div>
@@ -101,7 +101,7 @@
             <div class="offcanvas-header">
                 <div class="navLogoWrapper">
                     <div class="navLogo">
-                        <img src="{{ $settings['horizontal_logo'] ?? asset('assets/landing_page_images/Logo1.svg') }}" alt="">
+                        <img src="{{ $settings['horizontal_logo'] ?? asset('assets/landing_page_images/horizontal-logo2.png') }}" alt="">
                     </div>
                 </div>
                 <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"

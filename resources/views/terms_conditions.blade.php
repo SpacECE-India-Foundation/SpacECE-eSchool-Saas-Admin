@@ -20,7 +20,7 @@
             <div class="navLogoWrapper">
                 <div class="navLogo">
                     <a href="{{ url('/') }}">
-                        <img src="{{ $settings['horizontal_logo'] ?? asset('assets/landing_page_images/Logo1.svg') }}" class="logo" alt="">
+                        <img src="{{ $settings['horizontal_logo'] ?? asset('assets/landing_page_images/horizontal-logo2.png') }}" class="logo" alt="">
                     </a>
 
                 </div>
@@ -101,7 +101,7 @@
             <div class="offcanvas-header">
                 <div class="navLogoWrapper">
                     <div class="navLogo">
-                        <img src="{{ $settings['horizontal_logo'] ?? asset('assets/landing_page_images/Logo1.svg') }}" alt="">
+                        <img src="{{ $settings['horizontal_logo'] ?? asset('assets/landing_page_images/horizontal-logo2.png') }}" alt="">
                     </div>
                 </div>
                 <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"

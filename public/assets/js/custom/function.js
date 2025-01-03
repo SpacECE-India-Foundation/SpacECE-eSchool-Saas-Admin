@@ -752,7 +752,7 @@ function fees_details(data) {
             offsetY: 0,
             height: 20,
         },
-        colors: ['#1BCFB4', '#198AE3', '#FE7C96']
+        colors: ['#1BCFB4', '#F8A800', '#FE7C96']
     };
 
     var chart = new ApexCharts(document.querySelector("#fees_details_chart"), options);

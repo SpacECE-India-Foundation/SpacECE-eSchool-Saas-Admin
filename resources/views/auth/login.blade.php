@@ -37,7 +37,7 @@
         margin-top: unset !important;
     }
     a {
-        color: #007bff !important;
+        color: #F8A800 !important;
     }
     </style>
 
@@ -61,7 +61,7 @@
                                 @elseif($systemSettings['login_page_logo'] ?? $systemSettings['horizontal_logo'] ?? '')
                                     <img class="img-fluid w-25" src="{{ $systemSettings['login_page_logo'] ?? $systemSettings['horizontal_logo'] ?? '' }}" alt="logo">
                                 @else
-                                    <img class="img-fluid w-25" src="{{ url('assets/horizontal-logo.svg') }}" alt="logo">
+                                    <img class="img-fluid w-25" src="{{ url('assets/horizontal-logo2.png') }}" alt="logo">
                                 @endif
 
                             </div>

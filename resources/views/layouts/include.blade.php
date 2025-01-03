@@ -45,8 +45,9 @@
 <script src="{{url('/js/lang')}}"></script>
 <style>
     :root {
-        --theme-color: <?=$systemSettings['theme_color']??"#22577A" ?>;
-    }
+    --theme-color: #F8A800;
+}
+
 </style>
 <script>
     const baseUrl = "{{ URL::to('/') }}";

@@ -180,7 +180,7 @@
                         @if ($settings['horizontal_logo'] ?? '')
                             <img height="40" src="{{ public_path('storage/').$settings['horizontal_logo'] }}" alt="">
                         @else
-                            <img height="40" src="{{ public_path('assets/horizontal-logo2.svg') }}" alt="">
+                            <img height="40" src="{{ public_path('assets/horizontal-logo2.png') }}" alt="">
                         @endif
                     </th>
                     <th class="school-name" colspan="2">{{ $settings['school_name'] }}</th>
@@ -292,7 +292,7 @@
                         @if ($settings['horizontal_logo'] ?? '')
                             <img height="40" style="padding-top: 5px" src="{{ public_path('storage/').$settings['horizontal_logo'] }}" alt="">
                         @else
-                            <img height="40" style="padding-top: 5px" src="{{ public_path('assets/horizontal-logo2.svg') }}" alt="">
+                            <img height="40" style="padding-top: 5px" src="{{ public_path('assets/horizontal-logo2.png') }}" alt="">
                         @endif
                     </th>
                 </tr>

@@ -6,7 +6,7 @@
 }
 
 :root {
-  --primary-color: #22577a;
+  --primary-color: #F8A800;
   --primary-hover-color: #143449;
   --secondary-color1: #38a3a5;
   --secondary-color2: #57cc99;
@@ -920,7 +920,7 @@ a {
 }
 
 .faqs .accordion-button {
-  /* background-color: #22577a08; */
+  /* background-color: #F8A80008; */
 }
 
 .faqs .accordion-button span {
@@ -1230,7 +1230,7 @@ footer .infoDivWrapper .textDiv span:last-child {
 }
 
 .breadcrumb .contentWrapper .home {
-  color: #22577A;
+  color: #F8A800;
   font-size: 18px;
   font-weight: 500;
 }
@@ -1427,7 +1427,7 @@ footer .infoDivWrapper .textDiv span:last-child {
 }
 
 .contactUs .headlines span:last-child {
-  color: #22577A;
+  color: #F8A800;
   font-size: 28px;
   font-weight: 700;
 }

@@ -85,7 +85,7 @@
                     @if ($settings['horizontal_logo'] ?? '')
                         <img height="50" src="{{ public_path('storage/') . $settings['horizontal_logo'] }}" alt="">
                     @else
-                        <img height="50" src="{{ public_path('assets/horizontal-logo2.svg') }}" alt="">
+                        <img height="50" src="{{ public_path('assets/horizontal-logo2.png') }}" alt="">
                     @endif
                 </td>
             </tr>

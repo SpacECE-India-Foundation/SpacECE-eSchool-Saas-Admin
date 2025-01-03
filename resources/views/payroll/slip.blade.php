@@ -198,7 +198,7 @@
                     @if ($schoolSetting['horizontal_logo'] ?? '')
                         <img class="school-logo" height="50" src="{{ public_path('storage/') . $schoolSetting['horizontal_logo'] }}" alt="">                    
                     @else
-                        <img height="40" src="{{ public_path('assets/horizontal-logo2.svg') }}" alt="">
+                        <img height="40" src="{{ public_path('assets/horizontal-logo2.png') }}" alt="">
                     @endif
 
                 </th>

@@ -24,9 +24,9 @@ integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLAS
 
 <style>
     :root {
-    --primary-color: {{ $schoolSettings['primary_color'] ?? '#22577a' }};
+    --primary-color: {{ $schoolSettings['primary_color'] ?? '#F8A800' }};
     --primary-hover-color: {{ $schoolSettings['primary_hover_color'] ?? '#143449' }};
-    --secondary-color1: {{ $schoolSettings['primary_color'] ?? '#22577a' }};
+    --secondary-color1: {{ $schoolSettings['primary_color'] ?? '#F8A800' }};
     --secondary-color2: {{ $schoolSettings['secondary_color'] ?? '#57cc99' }};
     
     --secondary-color3: #80ed99;

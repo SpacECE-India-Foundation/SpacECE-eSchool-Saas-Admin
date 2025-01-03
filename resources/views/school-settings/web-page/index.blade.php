@@ -26,7 +26,7 @@
                                 <div class="row">
                                     <div class="form-group col-sm-12 col-md-4">
                                         <label for="primary_color">{{ __('primary_color') }} <span class="text-danger">*</span></label>
-                                        <input name="primary_color" id="primary_color" value="{{ $settings['primary_color'] ?? '#22577a' }}" type="text" required placeholder="{{ __('color') }}" class="color-picker"/>
+                                        <input name="primary_color" id="primary_color" value="{{ $settings['primary_color'] ?? '#F8A800' }}" type="text" required placeholder="{{ __('color') }}" class="color-picker"/>
                                     </div>
 
                                     <div class="form-group col-sm-12 col-md-4">

@@ -24,7 +24,7 @@
                             @if ($school['horizontal_logo'] ?? '')
                                 <img style="height: 5rem;width: 5rem;" src="{{ public_path('storage/') . $school['horizontal_logo'] }}" alt="">                    
                             @else
-                                <img style="height: 5rem;width: 5rem;" src="{{ public_path('assets/horizontal-logo2.svg') }}" alt="">
+                                <img style="height: 5rem;width: 5rem;" src="{{ public_path('assets/horizontal-logo2.png') }}" alt="">
                             @endif
                         </div>
 

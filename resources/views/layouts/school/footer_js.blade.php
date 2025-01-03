@@ -155,7 +155,7 @@
     // Logo
     var nav_logo = "{{ $schoolSettings['horizontal_logo'] ?? '' }}";
     if (nav_logo == null || nav_logo == '') {
-        nav_logo = "{{ $systemSettings['horizontal_logo'] ?? asset('assets/landing_page_images/Logo1.svg') }}";
+        nav_logo = "{{ $systemSettings['horizontal_logo'] ?? asset('assets/landing_page_images/horizontal-logo2.png') }}";
     }
 
     var footer_logo = "{{ $schoolSettings['footer_logo'] ?? '' }}";

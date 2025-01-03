@@ -82,7 +82,7 @@
                         <div class="brand-logo text-center">
                             {{-- <img src="{{asset(config('global.LOGO1')) }}" alt="logo"> --}}
                             {{-- <img src="{{ asset('logo.svg') }}" alt="logo"> --}}
-                            <img src="{{$systemSettings['horizontal_logo'] ?? url('assets/horizontal-logo.svg')}}" alt="logo">
+                            <img src="{{$systemSettings['horizontal_logo'] ?? url('assets/horizontal-logo2.png')}}" alt="logo">
                         </div>
                         @if (session('status'))
                             <div class="alert alert-success" role="alert">

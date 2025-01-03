@@ -42,7 +42,7 @@ class AddSuperAdminSeeder extends Seeder {
             ["name" => "time_zone", "data" => "Asia/Kolkata", "type" => "string"],
             ["name" => "date_format", "data" => "d-m-Y", "type" => "date"],
             ["name" => "time_format", "data" => "h:i A", "type" => "time"],
-            ["name" => "theme_color", "data" => "#22577A", "type" => "string"],
+            ["name" => "theme_color", "data" => "#F8A800", "type" => "string"],
             ["name" => "session_year", "data" => 1, "type" => "string"],
             ["name" => "system_version", "data" => "1.4.1", "type" => "string"],
             ["name" => "email_verified", "data" => 0, "type" => "boolean"],

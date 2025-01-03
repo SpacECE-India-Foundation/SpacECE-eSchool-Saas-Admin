@@ -108,7 +108,7 @@
             background-color: lightgray;
         }
         .text-info {
-            color: #198ae3 !important;
+            color: #F8A800 !important;
             font-size: 12px;
         }
 

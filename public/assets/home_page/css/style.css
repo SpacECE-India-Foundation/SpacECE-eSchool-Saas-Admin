@@ -16,7 +16,7 @@ a {
 }
 
 .navbar {
-    background-color: #F4FBFF;
+    background-color:white;
     position: sticky !important;
     top: 0px;
     z-index: 12;
@@ -39,6 +39,7 @@ a {
 .logo {
     width: auto;
     height: 50px;
+    transform: scale(1.8);
 }
 
 .navbar .menuListWrapper {
@@ -188,14 +189,14 @@ a {
 /* navbar end here  */
 
 .heroSection {
-    background-color: #F4FBFF;
+    background-color: rgba(248, 168, 0, 0.1);
     background-size: contain;
     background-repeat: no-repeat;
     padding: 50px 0px;
 }
 
 .heroSection .linesBg {
-    background: url('../../landing_page_images/heroLines.png');
+ 
     background-size: 108% 100%;
     background-repeat: no-repeat;
 }
@@ -207,7 +208,8 @@ a {
 }
 
 .heroSection .colorBg {
-    background-color: #f4fbffde;
+    background-color: #rgba(248, 168, 0, 0.1)
+    ;
 }
 
 .heroSection .heroImg {
@@ -571,7 +573,7 @@ a {
 /* swiperSect ends here  */
 
 .counterSect .counterBG {
-    background-image: url('../../landing_page_images/counterBG.png');
+    background-color: rgba(248, 168, 0, 0.1);    ;
     background-repeat: no-repeat;
     background-size: cover;
     padding: 26px;
@@ -875,7 +877,7 @@ a {
 /* whyBest ends here  */
 
 .pricing {
-    background-color: #F4FBFF;
+    background-color: rgba(248, 168, 0, 0.1)    ;
     padding: 40px 0px;
 }
 
@@ -1277,7 +1279,7 @@ a {
 /* faqs ends here  */
 
 .getInTouch {
-    background-color: #F4FBFF;
+    background-color: rgba(248, 168, 0, 0.1)    ;
     padding: 20px;
     padding-bottom: 120px;
 }
@@ -1810,3 +1812,7 @@ footer .copyright {
     margin: 0px !important;
 }
 
+footer{
+    background-color: rgba(248, 168, 0, 0.1)
+    ;
+}

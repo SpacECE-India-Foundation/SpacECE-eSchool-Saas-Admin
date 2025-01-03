@@ -3,7 +3,7 @@
 use Illuminate\Support\Facades\File;
 
 return [
-    'icon' => 'assets/horizontal-logo.svg',
+    'icon' => 'assets/horizontal-logo2.png',
 
     //    'background' => 'assets/logo.svg',
 
